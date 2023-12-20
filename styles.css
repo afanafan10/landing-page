@@ -82,15 +82,16 @@ p {
 }
 
 .hero-img {
-    background-color: grey;
+    /* background-color: grey; */
+    border-radius: 5px;
     color: #ffffff;
-    height: 250px;
+    max-height: 250px;
     flex: 1;
-    background-image: url('./img/01-duck.jpg');
+    overflow: hidden;
 }
 
 .hero-img img {
-    
+    max-width: 100%;
 }
 
 .information {
